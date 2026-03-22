@@ -45,14 +45,14 @@ The five main phases run in sequence. Each produces artifacts that the next phas
 flowchart TD
     INIT([specify init]) --> C
 
-    C["🏛️ /speckit.constitution\nEstablish project principles"]
-    S["📋 /speckit.specify\nDefine requirements & user stories"]
-    CL["❓ /speckit.clarify\nResolve spec ambiguities"]
-    P["🗺️ /speckit.plan\nTechnical architecture & stack"]
-    AN["🔍 /speckit.analyze\nCross-artifact consistency check"]
-    T["✅ /speckit.tasks\nGenerate task breakdown"]
-    CH["📝 /speckit.checklist\nQuality validation gate"]
-    I["⚙️ /speckit.implement\nBuild the feature"]
+    C["🏛️ /speckit.constitution<br/>Establish project principles"]
+    S["📋 /speckit.specify<br/>Define requirements & user stories"]
+    CL["❓ /speckit.clarify<br/>Resolve spec ambiguities"]
+    P["🗺️ /speckit.plan<br/>Technical architecture & stack"]
+    AN["🔍 /speckit.analyze<br/>Cross-artifact consistency check"]
+    T["✅ /speckit.tasks<br/>Generate task breakdown"]
+    CH["📝 /speckit.checklist<br/>Quality validation gate"]
+    I["⚙️ /speckit.implement<br/>Build the feature"]
     DONE([Working Software])
 
     C --> S
@@ -75,82 +75,6 @@ flowchart TD
 ```
 
 > 🟡 Yellow nodes are **optional** steps. All other nodes are required.
-
----
-
-### Artifact Flow
-
-```mermaid
-flowchart LR
-    subgraph phase1["Phase 1 — Constitution"]
-        C["/speckit.constitution"]
-        A1["📄 constitution.md"]
-        C --> A1
-    end
-
-    subgraph phase2["Phase 2 — Specify"]
-        S["/speckit.specify"]
-        A2["📄 spec.md\n+ git branch"]
-        S --> A2
-    end
-
-    subgraph phase2b["Optional — Clarify"]
-        CL["/speckit.clarify"]
-        A2b["📄 spec.md\n(Clarifications appended)"]
-        CL --> A2b
-    end
-
-    subgraph phase3["Phase 3 — Plan"]
-        P["/speckit.plan"]
-        A3a["📄 plan.md"]
-        A3b["📄 data-model.md"]
-        A3c["📄 research.md"]
-        A3d["📄 quickstart.md"]
-        A3e["📄 contracts/\napi-spec.json\n*-spec.md"]
-        A3f["📄 CLAUDE.md"]
-        P --> A3a & A3b & A3c & A3d & A3e & A3f
-    end
-
-    subgraph phase3b["Optional — Analyze"]
-        AN["/speckit.analyze"]
-        A3g["📊 Coverage &\nconsistency report\n(in-conversation)"]
-        AN --> A3g
-    end
-
-    subgraph phase4["Phase 4 — Tasks"]
-        T["/speckit.tasks"]
-        A4["📄 tasks.md\n(user stories, [P] markers,\nfile paths, TDD structure)"]
-        T --> A4
-    end
-
-    subgraph phase4b["Optional — Checklist"]
-        CH["/speckit.checklist"]
-        A4b["✅ Quality checklist\n(in-conversation)"]
-        CH --> A4b
-    end
-
-    subgraph phase5["Phase 5 — Implement"]
-        I["/speckit.implement"]
-        A5["💻 Working source code"]
-        I --> A5
-    end
-
-    A1 --> S
-    A2 --> CL
-    A2b --> P
-    A2 --> P
-    A1 --> P
-    A3a --> AN
-    A3a --> T
-    A3g --> T
-    A4 --> CH
-    A4 --> I
-    A4b --> I
-
-    style phase2b fill:#fffbf0,stroke:#f0ad4e
-    style phase3b fill:#fffbf0,stroke:#f0ad4e
-    style phase4b fill:#fffbf0,stroke:#f0ad4e
-```
 
 ---
 

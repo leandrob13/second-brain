@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDD/speckit/SpecKit-Workflow.md",
+                "file": "SDD/bmad/BMAD-Workflows-Reference.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SpecKit-Workflow"
+              "title": "BMAD-Workflows-Reference"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SDD/speckit/SpecKit-Workflow.md",
+                "file": "SDD/bmad/BMAD-Workflows-Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SpecKit-Workflow"
+              "title": "Backlinks for BMAD-Workflows-Reference"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SDD/speckit/SpecKit-Workflow.md",
+                "file": "SDD/bmad/BMAD-Workflows-Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SpecKit-Workflow"
+              "title": "Outgoing links from BMAD-Workflows-Reference"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SDD/speckit/SpecKit-Workflow.md",
+                "file": "SDD/bmad/BMAD-Workflows-Reference.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SpecKit-Workflow"
+              "title": "Outline of BMAD-Workflows-Reference"
             }
           }
         ]
@@ -180,9 +180,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ef78acf8f7bc47fa",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "SDD/speckit/SpecKit-Workflow.md",
+    "SDD/bmad/BMAD-Workflows-Reference.md"
+  ]
 }

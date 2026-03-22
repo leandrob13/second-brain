@@ -10,6 +10,80 @@ The BMM module provides **34+ workflows** organized across 4 phases. Every workf
 
 ---
 
+## Workflow Diagram
+
+```mermaid
+flowchart TD
+    START([Start])
+
+    subgraph EX["Phase 1 — Explore (Optional)"]
+        E1["bmad-brainstorming<br/>bmad-domain/market/technical-research"]
+        E2["bmad-create-product-brief"]
+        E1 --> E2
+    end
+
+    subgraph PL["Phase 2 — Planning"]
+        P1["bmad-create-prd"]
+        P2["bmad-validate-prd / bmad-edit-prd"]
+        P3["bmad-create-ux-design"]
+        P1 --> P2 --> P3
+    end
+
+    subgraph SL["Phase 3 — Solutioning"]
+        S1["bmad-create-architecture"]
+        S2["bmad-generate-project-context"]
+        S3["bmad-create-epics-and-stories"]
+        GATE{"bmad-check-implementation-readiness"}
+        S1 --> S2 --> S3 --> GATE
+    end
+
+    subgraph IM["Phase 4 — Implementation"]
+        I1["bmad-sprint-planning"]
+        I2["bmad-create-story"]
+        I3["bmad-dev-story"]
+        I4["bmad-code-review"]
+        LOOP{"More stories?"}
+        TRACK["bmad-sprint-status / bmad-correct-course"]
+        I6["bmad-retrospective"]
+        I1 --> I2 --> I3 --> I4 --> LOOP
+        LOOP -- "yes" --> I2
+        LOOP -- "epic done" --> I6
+        I4 -.-> TRACK
+    end
+
+    subgraph QF["Quick Flow Track (1–15 stories)"]
+        Q1["bmad-quick-dev"]
+        Q2["bmad-code-review"]
+        Q1 --> Q2
+    end
+
+    REVIEW["Review flagged items"]
+    DONE([Done])
+
+    START --> EX
+    START -- "skip explore" --> PL
+    EX --> PL
+    PL --> SL
+    GATE -- "✅ PASS" --> IM
+    GATE -- "❌ FAIL" --> SL
+    GATE -- "⚠️ CONCERNS" --> REVIEW
+    REVIEW -- "proceed" --> IM
+    REVIEW -- "revise" --> SL
+    I6 --> DONE
+    START -- "simple/well-understood work" --> QF
+    QF --> DONE
+
+    style EX fill:#fff8e1,stroke:#f0ad4e,color:#000
+    style REVIEW fill:#fff3cd,stroke:#f0ad4e,color:#000
+    style QF fill:#e8f4fd,stroke:#4a9eda,color:#000
+    style START fill:#d4edda,stroke:#28a745,color:#000
+    style DONE fill:#d4edda,stroke:#28a745,color:#000
+```
+
+> 🟡 **Phase 1** and the **Quick Flow Track** are optional paths. Documentation workflows (`bmad-document-project`, etc.) and test automation (`bmad-automate`) are available at any phase and are not shown above. `bmad-help` can be invoked at any time from any agent to inspect project state and get a recommended next step.
+
+---
+
 ## Phase 1 — Explore / Analysis *(Optional)*
 
 > Validate the problem space before committing to planning.
