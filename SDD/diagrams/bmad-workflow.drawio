@@ -1,0 +1,193 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="DdaLVMUirLHGCmGcinsc">
+    <mxGraphModel dx="1900" dy="1077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="rounded=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="40" width="160" x="110" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="done" parent="1" style="rounded=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;whiteSpace=wrap;html=1;" value="Done" vertex="1">
+          <mxGeometry height="40" width="160" x="160" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="review" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;" value="Review flagged items" vertex="1">
+          <mxGeometry height="40" width="200" x="400" y="578" as="geometry" />
+        </mxCell>
+        <mxCell id="ph1" parent="1" style="swimlane;startSize=25;fillColor=#fffbf0;strokeColor=#d4900a;fontColor=#d4900a;whiteSpace=wrap;html=1;align=left;" value="Phase 1 — Explore (Opt)" vertex="1">
+          <mxGeometry height="120" width="320" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="ph1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;" value="bmad-brainstorming / domain / market / technical research" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="ph1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;" value="bmad-create-product-brief" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="ee1" edge="1" parent="ph1" source="e1" style="edgeStyle=orthogonalEdgeStyle;" target="e2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ph2" parent="1" style="swimlane;startSize=25;fillColor=#f5f5f5;strokeColor=#aaaaaa;whiteSpace=wrap;html=1;align=left;" value="Phase 2 — Planning" vertex="1">
+          <mxGeometry height="165" width="320" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="ph2" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-create-prd" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="ph2" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-validate-prd / bmad-edit-prd" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="ph2" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-create-ux-design" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ep1" edge="1" parent="ph2" source="p1" style="edgeStyle=orthogonalEdgeStyle;" target="p2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep2" edge="1" parent="ph2" source="p2" style="edgeStyle=orthogonalEdgeStyle;" target="p3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phqf" parent="1" style="swimlane;startSize=25;fillColor=#e8f4fd;strokeColor=#4a9eda;fontColor=#2a6da8;whiteSpace=wrap;html=1;" value="Quick Flow Track (1-15 stories)" vertex="1">
+          <mxGeometry height="165" width="220" x="400" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" parent="phqf" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-quick-dev" vertex="1">
+          <mxGeometry height="35" width="200" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" parent="phqf" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-code-review" vertex="1">
+          <mxGeometry height="35" width="200" x="10" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="eq1" edge="1" parent="phqf" source="q1" style="edgeStyle=orthogonalEdgeStyle;" target="q2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ph3" parent="1" style="swimlane;startSize=25;fillColor=#f5f5f5;strokeColor=#aaaaaa;whiteSpace=wrap;html=1;align=left;" value="Phase 3 — Solutioning" vertex="1">
+          <mxGeometry height="225" width="320" x="30" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="ph3" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-create-architecture" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="ph3" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-generate-project-context" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="ph3" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-create-epics-and-stories" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="gate" parent="ph3" style="rhombus;fillColor=#f0e6ff;strokeColor=#7952b3;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=9;" value="bmad-check-implementation-readiness" vertex="1">
+          <mxGeometry height="50" width="180" x="70" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="es1" edge="1" parent="ph3" source="s1" style="edgeStyle=orthogonalEdgeStyle;" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es2" edge="1" parent="ph3" source="s2" style="edgeStyle=orthogonalEdgeStyle;" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3" edge="1" parent="ph3" source="s3" style="edgeStyle=orthogonalEdgeStyle;" target="gate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ph4" parent="1" style="swimlane;startSize=25;fillColor=#f5f5f5;strokeColor=#aaaaaa;whiteSpace=wrap;html=1;align=left;" value="Phase 4 — Implementation" vertex="1">
+          <mxGeometry height="340" width="320" x="30" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" parent="ph4" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-sprint-planning" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" parent="ph4" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-create-story" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" parent="ph4" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-dev-story" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="i4" parent="ph4" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-code-review" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="loop" parent="ph4" style="rhombus;fillColor=#eeeeee;strokeColor=#777777;whiteSpace=wrap;html=1;verticalAlign=middle;" value="More stories?" vertex="1">
+          <mxGeometry height="40" width="150" x="85" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="i6" parent="ph4" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" value="bmad-retrospective" vertex="1">
+          <mxGeometry height="35" width="300" x="10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ei1" edge="1" parent="ph4" source="i1" style="edgeStyle=orthogonalEdgeStyle;" target="i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei2" edge="1" parent="ph4" source="i2" style="edgeStyle=orthogonalEdgeStyle;" target="i3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei3" edge="1" parent="ph4" source="i3" style="edgeStyle=orthogonalEdgeStyle;" target="i4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei4" edge="1" parent="ph4" source="i4" style="edgeStyle=orthogonalEdgeStyle;" target="loop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei5" edge="1" parent="ph4" source="loop" style="edgeStyle=orthogonalEdgeStyle;" target="i6" value="epic done">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ei6" edge="1" parent="ph4" source="loop" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="i2" value="yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-22" y="238" />
+              <mxPoint x="-22" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;" target="e1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x2" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#888888;fontColor=#888888;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p1" value="skip explore">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="40" />
+              <mxPoint x="375" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;" target="p1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x4" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x5" edge="1" parent="1" source="gate" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#28a745;fontColor=#28a745;" target="i1" value="PASS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6" edge="1" parent="1" source="gate" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d4900a;fontColor=#d4900a;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="review" value="CONCERNS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x7" edge="1" parent="1" source="gate" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#dc3545;fontColor=#dc3545;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s1" value="FAIL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="598" />
+              <mxPoint x="10" y="452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#28a745;fontColor=#28a745;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="i1" value="proceed">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="660" />
+              <mxPoint x="355" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9" edge="1" parent="1" source="review" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#d4900a;fontColor=#d4900a;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="s1" value="revise">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x10" edge="1" parent="1" source="i6" style="edgeStyle=orthogonalEdgeStyle;" target="done">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x11" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4a9eda;fontColor=#4a9eda;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x12" edge="1" parent="1" source="q2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4a9eda;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="done">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="325" />
+              <mxPoint x="649" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
