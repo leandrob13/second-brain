@@ -42,7 +42,7 @@ The five main phases run in sequence. Each produces artifacts that the next phas
 ### Phase Sequence
 
 
-![SpecKit Workflow](speckit-workflow.svg)
+![SpecKit Workflow](resources/speckit-workflow.svg)
 
 
 > 🟡 Yellow nodes are **optional** steps. All other nodes are required.
