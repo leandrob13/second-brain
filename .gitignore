@@ -1,1 +1,4 @@
 .obsidian
+*.bkp
+*.drawio
+.claude
