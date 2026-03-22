@@ -41,7 +41,11 @@ The five main phases run in sequence. Each produces artifacts that the next phas
 
 ### Phase Sequence
 
-![[speckit-workflow.svg]]
+
+<p align="center">
+  <img src="speckit-workflow.svg" alt="Alt Text">
+</p>
+
 
 > 🟡 Yellow nodes are **optional** steps. All other nodes are required.
 
