@@ -333,8 +333,6 @@ Working source code across the project — files, components, tests, migrations,
 ## Related Notes
 
 - [SDD-Index](../SDD-Index.md)
-- [BMAD-Getting-Started](../bmad/BMAD-Getting-Started.md)
-- [BMAD-Workflows-Reference](../bmad/BMAD-Workflows-Reference.md)
 
 ---
 
