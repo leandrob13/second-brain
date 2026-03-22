@@ -12,7 +12,7 @@ The BMM module provides **34+ workflows** organized across 4 phases. Every workf
 
 ## Workflow Diagram
 
-<p align="center"><img src="bmad-workflow.svg" alt="Alt Text"></p>
+![BMAD Workflow](bmad-workflow.svg)
 
 
 > 🟡 **Phase 1** and the **Quick Flow Track** are optional paths. Documentation workflows (`bmad-document-project`, etc.) and test automation (`bmad-automate`) are available at any phase and are not shown above. `bmad-help` can be invoked at any time from any agent to inspect project state and get a recommended next step.
@@ -156,6 +156,6 @@ Runs automatically at the end of every workflow. Can be invoked at any time from
 
 ## Related Notes
 
-- [[BMAD-Getting-Started]]
-- [[BMAD-Agents]]
-- [[SDD-Index]]
+- [BMAD-Getting-Started](BMAD-Getting-Started.md)
+- [BMAD-Agents](BMAD-Agents.md)
+- [SDD-Index](../SDD-Index.md)

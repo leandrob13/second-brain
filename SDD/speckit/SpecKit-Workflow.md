@@ -42,7 +42,7 @@ The five main phases run in sequence. Each produces artifacts that the next phas
 ### Phase Sequence
 
 
-<p align="center"><img src="speckit-workflow.svg" alt="Alt Text"></p>
+![SpecKit Workflow](speckit-workflow.svg)
 
 
 > 🟡 Yellow nodes are **optional** steps. All other nodes are required.
@@ -332,9 +332,9 @@ Working source code across the project — files, components, tests, migrations,
 
 ## Related Notes
 
-- [[SDD-Index]]
-- [[BMAD-Getting-Started]]
-- [[BMAD-Workflows-Reference]]
+- [SDD-Index](../SDD-Index.md)
+- [BMAD-Getting-Started](../bmad/BMAD-Getting-Started.md)
+- [BMAD-Workflows-Reference](../bmad/BMAD-Workflows-Reference.md)
 
 ---
 

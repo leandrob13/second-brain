@@ -176,7 +176,7 @@ your-project/
 
 ## Related Notes
 
-- [[BMAD-Agents]]
-- [[BMAD-Workflows-Reference]]
-- [[SDD-Index]]
+- [BMAD-Agents](BMAD-Agents.md)
+- [BMAD-Workflows-Reference](BMAD-Workflows-Reference.md)
+- [SDD-Index](../SDD-Index.md)
  

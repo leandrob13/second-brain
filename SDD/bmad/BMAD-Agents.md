@@ -154,6 +154,6 @@ You can define your own agents by creating `.md` or `.yaml` files in `_bmad/agen
 
 ## Related Notes
 
-- [[BMAD-Getting-Started]]
-- [[BMAD-Workflows-Reference]]
-- [[SDD-Index]]
+- [BMAD-Getting-Started](BMAD-Getting-Started.md)
+- [BMAD-Workflows-Reference](BMAD-Workflows-Reference.md)
+- [SDD-Index](../SDD-Index.md)
