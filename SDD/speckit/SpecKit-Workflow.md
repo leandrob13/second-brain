@@ -41,38 +41,7 @@ The five main phases run in sequence. Each produces artifacts that the next phas
 
 ### Phase Sequence
 
-```mermaid
-flowchart TD
-    INIT([specify init]) --> C
-
-    C["🏛️ /speckit.constitution<br/>Establish project principles"]
-    S["📋 /speckit.specify<br/>Define requirements & user stories"]
-    CL["❓ /speckit.clarify<br/>Resolve spec ambiguities"]
-    P["🗺️ /speckit.plan<br/>Technical architecture & stack"]
-    AN["🔍 /speckit.analyze<br/>Cross-artifact consistency check"]
-    T["✅ /speckit.tasks<br/>Generate task breakdown"]
-    CH["📝 /speckit.checklist<br/>Quality validation gate"]
-    I["⚙️ /speckit.implement<br/>Build the feature"]
-    DONE([Working Software])
-
-    C --> S
-    S --> CL
-    CL --> P
-    S -- "skip clarify" --> P
-    P --> AN
-    AN --> T
-    P -- "skip analyze" --> T
-    T --> CH
-    CH --> I
-    T -- "skip checklist" --> I
-    I --> DONE
-
-    style CL fill:#fff3cd,stroke:#f0ad4e,color:#000
-    style AN fill:#fff3cd,stroke:#f0ad4e,color:#000
-    style CH fill:#fff3cd,stroke:#f0ad4e,color:#000
-    style INIT fill:#d4edda,stroke:#28a745,color:#000
-    style DONE fill:#d4edda,stroke:#28a745,color:#000
-```
+![[speckit-workflow.svg]]
 
 > 🟡 Yellow nodes are **optional** steps. All other nodes are required.
 
