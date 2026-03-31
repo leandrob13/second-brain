@@ -7,4 +7,4 @@
 - Agent
 
 
-![AI Development Architecture](AI-Development-Architecture.svg)
+![AI Development Architecture](diagrams/AI-Development-Architecture.svg)
