@@ -84,7 +84,7 @@ Specifications use **business intent language**, not technology-specific impleme
 
 ## The Four-Phase Lifecycle
 
-![[diagrams/sdd-lifecycle.drawio.svg]]
+![SDD Four-Phase Lifecycle](diagrams/sdd-lifecycle.drawio.svg)
 
 ### Phase 1: Specify — Define Intent
 
@@ -135,7 +135,7 @@ AI agents generate code within specification constraints:
 
 ## The Five-Layer Execution Model
 
-![[diagrams/sdd-five-layer-architecture.drawio.svg]]
+![SDD Five-Layer Execution Model](diagrams/sdd-five-layer-architecture.drawio.svg)
 
 The architecture of a fully realized SDD system operates across five distinct layers:
 
@@ -155,7 +155,7 @@ A feedback loop runs from the Runtime layer back to the Specification layer via 
 
 ## How SDD Integrates with TDD, BDD, and Other Practices
 
-![[diagrams/sdd-tdd-bdd-integration.drawio.svg]]
+![SDD, TDD, and BDD Integration Model](diagrams/sdd-tdd-bdd-integration.drawio.svg)
 
 A critical insight: **SDD, TDD, and BDD are not competing methodologies.** They operate at different abstraction layers and are designed to be used together.
 
@@ -271,7 +271,7 @@ Research shows that AI-assisted coding increases code complexity by ~41% and sta
 
 ## Recommended Tools
 
-![[diagrams/sdd-toolchain.drawio.svg]]
+![SDD Toolchain Ecosystem](diagrams/sdd-toolchain.drawio.svg)
 
 ### Specification Formats
 
