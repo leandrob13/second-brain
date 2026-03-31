@@ -20,7 +20,7 @@ The key insight: **plans are the primary artifact, not code.** A well-written pl
 
 Every iteration through the four-phase cycle deposits knowledge that makes the *next* iteration faster and more reliable.
 
-![[diagrams/compound-engineering-loop.drawio.svg]]
+![Compound Engineering Loop](diagrams/compound-engineering-loop.drawio.svg)
 
 **Phase breakdown:**
 - **Plan (40–80% of developer time):** Research requirements, study the codebase and prior solutions, and produce a detailed implementation blueprint. This is where the developer's judgment is most valuable.
@@ -74,7 +74,7 @@ The developer's primary skills become:
 
 ## Agent Design Patterns
 
-![[diagrams/agent-design-patterns.drawio.svg]]
+![Agent Design Patterns](diagrams/agent-design-patterns.drawio.svg)
 
 ### Single-Agent Systems
 
@@ -104,7 +104,7 @@ Multiple agents debate and iteratively refine answers for highly ambiguous or co
 
 ## Compound AI System Architecture
 
-![[diagrams/compound-ai-architecture.drawio.svg]]
+![Compound AI Architecture](diagrams/compound-ai-architecture.drawio.svg)
 
 A Compound AI System is built from interconnected modules, each doing a well-defined task. The five core functional subsystems are:
 

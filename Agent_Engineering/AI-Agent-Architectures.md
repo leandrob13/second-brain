@@ -33,7 +33,7 @@ An **AI Agent** is an autonomous system that uses an LLM as its reasoning engine
 
 The standard agent loop follows: **Thought → Action → Observation → Repeat**
 
-![[diagrams/agent-core-loop.drawio.svg|Agent Core Loop - ReAct Pattern]]
+![Agent Core Loop - ReAct Pattern](diagrams/agent-core-loop.drawio.svg)
 
 ---
 
@@ -51,7 +51,7 @@ Anthropic's guidance distills agent design into three governing principles:
 
 ## Agent Architecture Types
 
-![[diagrams/agent-architecture-patterns.drawio.svg]]
+![Agent Architecture Patterns](diagrams/agent-architecture-patterns.drawio.svg)
 
 ### ReAct (Reasoning and Acting)
 
@@ -144,7 +144,7 @@ Responsible for decomposing goals into actionable steps. Can be implicit (embedd
 
 ## Memory Systems
 
-![[diagrams/agent-memory-systems.drawio.svg]]
+![Agent Memory Systems](diagrams/agent-memory-systems.drawio.svg)
 
 Agents use multiple types of memory, each serving a distinct purpose:
 
@@ -187,7 +187,7 @@ Agents use multiple types of memory, each serving a distinct purpose:
 
 ## Orchestration Patterns
 
-![[diagrams/agent-orchestration-patterns.drawio.svg]]
+![Agent Orchestration Patterns](diagrams/agent-orchestration-patterns.drawio.svg)
 
 ### Single Agent
 

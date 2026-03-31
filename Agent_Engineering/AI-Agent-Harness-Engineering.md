@@ -23,7 +23,7 @@ The computer analogy is apt:
 
 Unlike an agent *framework* (a blueprint for building agents), a harness is the **runtime environment** that manages the agent's execution, state, and reliability in a live production setting.
 
-![[diagrams/harness-architecture.drawio.svg]]
+![Harness Architecture](diagrams/harness-architecture.drawio.svg)
 
 ---
 
@@ -99,7 +99,7 @@ As agents take on more complex, multi-session tasks, a core challenge emerges: *
 
 Anthropic's engineering blog describes a proven two-agent architecture for long-running work:
 
-![[diagrams/agent-lifecycle.drawio.svg]]
+![Agent Lifecycle](diagrams/agent-lifecycle.drawio.svg)
 
 **Initializer Agent** (runs once):
 1. Receives the high-level user prompt
@@ -122,7 +122,7 @@ Anthropic's engineering blog describes a proven two-agent architecture for long-
 
 ## 4. Orchestration Patterns
 
-![[diagrams/orchestration-patterns.drawio.svg]]
+![Orchestration Patterns](diagrams/orchestration-patterns.drawio.svg)
 
 ### Pattern 1: Sequential Pipeline
 
