@@ -62,7 +62,7 @@ ReAct combines chain-of-thought reasoning with external tool use in a dynamic in
 - Adjusts plans on-the-fly based on tool outputs
 - Demonstrated superior performance over pure CoT approaches
 
-**Best for:** Tasks requiring dynamic adaptation — web search, code execution, information retrieval.
+**Best for:** Tasks requiring dynamic Bo adaptation — web search, code execution, information retrieval.
 
 ### Chain of Thought (CoT)
 
