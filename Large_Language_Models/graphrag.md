@@ -1,6 +1,6 @@
 # GraphRAG — Graph Retrieval-Augmented Generation
 
-#graphrag #rag #knowledge-graph #llm #agent-engineering #retrieval #graph-database #microsoft
+#graphrag #rag #knowledge-graph #llm #large-language-models #retrieval #graph-database #microsoft
 
 > **GraphRAG** extends traditional RAG by replacing flat vector retrieval with a structured **knowledge graph**, enabling multi-hop reasoning, relationship traversal, and both local and global corpus understanding.
 

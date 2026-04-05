@@ -1,6 +1,6 @@
 # Retrieval Augmented Generation (RAG)
 
-#rag #llm #retrieval #vector-database #embeddings #agent-engineering #knowledge-base #nlp
+#rag #llm #retrieval #vector-database #embeddings #large-language-models #knowledge-base #nlp
 
 ---
 
