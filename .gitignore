@@ -3,3 +3,6 @@
 *.drawio
 .claude
 *.drawio
+*.automerge
+.doc-manifest.json
+.DS_Store
