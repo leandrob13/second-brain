@@ -40,10 +40,19 @@ GitHub's open-source toolkit for building software through structured, AI-guided
 
 ---
 
+## Superpowers — Agentic Skills Framework & Development Workflow
+
+Jesse Vincent's composable agentic skills framework and software development methodology. Skills auto-activate to enforce TDD, systematic debugging, brainstorming-before-coding, and subagent-driven development with two-stage code review. Works across Claude Code, Cursor, Codex, OpenCode, and Gemini CLI. 144k+ GitHub stars.
+
+- [Superpowers-Workflow](superpowers/Superpowers-Workflow.md) — Complete workflow: skills architecture, 7-stage pipeline (brainstorm/plan/implement/TDD/review/debug/finish), subagent-driven development, persuasion engineering, adversarial skill testing, combination patterns with other SDD tools, and best practices
+
+---
+
 ## Tools Comparison
 
-Cross-cutting comparison of the leading SDD tools — pros/cons, use cases, combination strategies, and a proposed governance model.
+Cross-cutting comparison of the leading SDD tools — pros/cons, use cases, combination strategies, and a proposed governance model. Note: Superpowers complements these tools at the implementation layer.
 
 - [SDD-Tools-Comparison](SDD-Tools-Comparison.md) — BMAD vs SpecKit vs OpenSpec: detailed pros and cons, dimension-by-dimension comparison, use case guide, combination patterns, and a proposed multi-tool governance model
+- [Superpowers-Workflow](superpowers/Superpowers-Workflow.md) — Includes comparison with BMAD/SpecKit/OpenSpec and combination patterns
 
 ---
