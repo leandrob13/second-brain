@@ -24,6 +24,14 @@ Fission AI's lightweight, universal spec-driven development framework — fluid,
 
 ---
 
+## GSD (Get Shit Done) — Meta-Prompting & Context Engineering
+
+TACHES' lightweight meta-prompting, context engineering, and spec-driven development system. Solves context rot via subagent orchestration, XML prompt formatting, and wave-based parallel execution. Works with 12+ AI tools.
+
+- [GSD-Workflow](gsd/GSD-Workflow.md) — Complete workflow: 5-step phase cycle (discuss/plan/execute/verify/ship), multi-agent architecture, context engineering model, 50+ commands, model profiles, quality gates, brownfield support, and best practices
+
+---
+
 ## SpecKit — Spec-Driven Development
 
 GitHub's open-source toolkit for building software through structured, AI-guided specification phases — from principles to working code.
@@ -34,8 +42,8 @@ GitHub's open-source toolkit for building software through structured, AI-guided
 
 ## Tools Comparison
 
-Cross-cutting comparison of all three SDD tools — pros/cons, use cases, combination strategies, and a proposed governance model.
+Cross-cutting comparison of the leading SDD tools — pros/cons, use cases, combination strategies, and a proposed governance model.
 
-- [SDD-Tools-Comparison](SDD-Tools-Comparison.md) — BMAD vs SpecKit vs OpenSpec: detailed pros and cons, dimension-by-dimension comparison, use case guide, four combination patterns, and a proposed multi-tool governance model
+- [SDD-Tools-Comparison](SDD-Tools-Comparison.md) — BMAD vs SpecKit vs OpenSpec: detailed pros and cons, dimension-by-dimension comparison, use case guide, combination patterns, and a proposed multi-tool governance model
 
 ---
