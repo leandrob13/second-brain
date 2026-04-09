@@ -31,3 +31,11 @@ GitHub's open-source toolkit for building software through structured, AI-guided
 - [SpecKit-Workflow](speckit/SpecKit-Workflow.md) — Complete workflow covering all 5 core phases and 3 optional steps (Clarify, Analyze, Checklist), with commands, outputs, and best practices
 
 ---
+
+## Tools Comparison
+
+Cross-cutting comparison of all three SDD tools — pros/cons, use cases, combination strategies, and a proposed governance model.
+
+- [SDD-Tools-Comparison](SDD-Tools-Comparison.md) — BMAD vs SpecKit vs OpenSpec: detailed pros and cons, dimension-by-dimension comparison, use case guide, four combination patterns, and a proposed multi-tool governance model
+
+---
