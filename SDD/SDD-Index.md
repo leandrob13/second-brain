@@ -16,6 +16,14 @@ The **Breakthrough Method for Agile AI-Driven Development** — a structured AI-
 
 ---
 
+## OpenSpec — Spec-Driven Development Framework
+
+Fission AI's lightweight, universal spec-driven development framework — fluid, iterative, brownfield-first. Works with 20+ AI coding assistants via slash commands.
+
+- [OpenSpec-Workflow](openspec/OpenSpec-Workflow.md) — Complete workflow covering core (propose/apply/archive) and expanded (new/continue/ff/verify/sync) modes, artifacts, delta specs, schemas, CLI reference, customization, and best practices
+
+---
+
 ## SpecKit — Spec-Driven Development
 
 GitHub's open-source toolkit for building software through structured, AI-guided specification phases — from principles to working code.
